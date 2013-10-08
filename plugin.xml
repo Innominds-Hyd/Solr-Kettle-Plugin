@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin
+    id="SolrPlugin"
+    iconfile="solr_2.png"
+    description="Solr Output"
+    tooltip="update a Solr Server with Data"
+    category="Output"
+    classname="com.innominds.kettle.solr.SolrOutMeta">
+    <libraries>
+        <library name="Solr_plugin.jar"/>
+    </libraries>
+
+    <localized_category>
+        <category locale="en_US">Output</category>
+    </localized_category>
+    <localized_description>
+        <description locale="en_US">Solr Output</description>
+    </localized_description>
+    <localized_tooltip>
+        <tooltip locale="en_US">update a Solr Server with Row</tooltip>
+    </localized_tooltip>
+</plugin>
